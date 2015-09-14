@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/item_image_dir"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:paddingBottom="17dp"
+        android:paddingTop="9dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:scaleType="centerCrop"
+        android:background="@mipmap/default_image"/>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/item_dir_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:textColor="#444"
+            android:id="@+id/item_dir_count" />
+    </LinearLayout>
+</LinearLayout>
